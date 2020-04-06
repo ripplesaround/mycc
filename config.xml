@@ -2,14 +2,8 @@
 <config name="config.xml">
   <phases>
     <phase>
-      <phase skip="true" type="java" path="" name="pp" />
-      <phase skip="false" type="java" path="" name="scanning" />
-      <phase skip="true" type="java" path="" name="parsing" />
-      <phase skip="true" type="java" path="" name="semantic" />
-      <phase skip="true" type="java" path="" name="icgen" />
-      <phase skip="true" type="java" path="" name="optimizing" />
-      <phase skip="true" type="java" path="" arch="mips" name="codegen" />
-      <phase skip="true" type="mips" headless="false" path="" name="simulating" />
+      <phase skip="false" type="java" path="test/scanner_example.c" name="scan" />
+      <phase skip="true" type="java" path="" name="parse" />
     </phase>
   </phases>
 </config>

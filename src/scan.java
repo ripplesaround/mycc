@@ -49,6 +49,8 @@ public class scan {
 
     // notice ++之间是不能有空格的
 
+
+
     private int lIndex = 1; //当前行号
     private int cIndex = -1; //当前列号
     private int word_cnt = 0;
@@ -791,7 +793,7 @@ public class scan {
         // notice 没有输出eof占位
         writer.write(strTokens);
         writer.close();
-        System.out.println("finish");
+        System.out.println("scan finish");
 
     }
 
