@@ -3,7 +3,7 @@
   <phases>
     <phase>
       <phase skip="false" type="java" path="test/scanner_example.c" name="scan" />
-      <phase skip="true" type="java" path="" name="parse" />
+      <phase skip="false" type="java" path="" name="parse" />
     </phase>
   </phases>
 </config>

@@ -149,7 +149,7 @@ public class scan {
         // 在同一文件夹下输出
         String [] temp_str = filename.split("\\.");
         String fileName1 = "";
-        for (int i = 0; i <= temp_str.length - 1; i++) {
+        for (int i = 0; i < temp_str.length - 1; i++) {
             fileName1 = fileName1.concat(temp_str[i]);
 
         }
