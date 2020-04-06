@@ -143,6 +143,16 @@ public class scan {
 
     public void readfile(String filename) throws Exception {
         String fileName = filename;
+
+        // 在同一文件夹下输出
+        String [] temp_str = filename.split("\\.");
+        String fileName1 = "";
+        for (int i = 0; i <= temp_str.length - 1; i++) {
+            fileName1 = fileName1.concat(temp_str[i]);
+
+        }
+        fileName1 = fileName1.concat(".token");
+
         File file = new File(fileName);
         Reader char_read=new FileReader(file);
         FileReader reader = new FileReader(file);
@@ -776,7 +786,7 @@ public class scan {
             }
         }
         reader.close();
-        String fileName1 ="test/scanner_example.tokens";
+
         FileWriter writer=new FileWriter(fileName1);
         // notice 没有输出eof占位
         writer.write(strTokens);
@@ -785,11 +795,13 @@ public class scan {
 
     }
 
-    public static void main(String[] args) throws Exception {
-        scan myscan = new scan();
-        String filename  = "test/scanner_example.c";
-        myscan.readfile(filename);
-    }
+//    public static void main(String[] args) throws Exception {
+//        scan myscan = new scan();
+//        String filename  = "test/scanner_example.c";
+//
+//        myscan.readfile(filename);
+//        System.out.println(args[0]);
+//    }
 
 
 }
