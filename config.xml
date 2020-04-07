@@ -2,7 +2,7 @@
 <config name="config.xml">
   <phases>
     <phase>
-      <phase skip="false" type="java" path="test/4_parser_test3.c" name="scan" />
+      <phase skip="false" type="java" path="test/3_parser_test2.c" name="scan" />
       <phase skip="false" type="java" path="" name="parse" />
     </phase>
   </phases>
