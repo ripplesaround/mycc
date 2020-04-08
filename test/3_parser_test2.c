@@ -10,9 +10,6 @@ int main() {
         a[j] = a[j+1];
         a[j+1] = t;
       }
-      else{
-        printf("hello");
-      }
     }
   }
   for(i = 0; i < 5; i++) {

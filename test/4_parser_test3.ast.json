@@ -50,32 +50,32 @@
 						]
 					},
 					{
-						"type": "ExpressionStatement",
-						"exprs": [
-							{
-								"type": "BinaryExpression",
-								"op": {
-									"type": "Token",
-									"value": "=",
-									"tokenId": 9
-								},
-								"expr1": {
-									"type": "Identifier",
-									"value": "a",
-									"tokenId": 8
-								},
-								"expr2": {
-									"type": "FunctionCall",
-									"funcname": {
-										"type": "Identifier",
-										"value": "MARS_GETI",
-										"tokenId": 10
-									},
-									"argList": null
-								}
-							}
-						]
-					},
+                        "type": "ExpressionStatement",
+                        "exprs": [
+                            {
+                                "type": "BinaryExpression",
+                                "op": {
+                                    "type": "Token",
+                                    "value": "=",
+                                    "tokenId": 9
+                                },
+                                "expr1": {
+                                    "type": "Identifier",
+                                    "value": "a",
+                                    "tokenId": 8
+                                },
+                                "expr2": {
+                                    "type": "FunctionCall",
+                                    "funcname": {
+                                        "type": "Identifier",
+                                        "value": "MARS_GETI",
+                                        "tokenId": 10
+                                    },
+                                    "argList": null
+                                }
+                            }
+                        ]
+                    },
 					{
 						"type": "ExpressionStatement",
 						"exprs": [
